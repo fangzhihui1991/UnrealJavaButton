@@ -3,6 +3,22 @@
 	"EngineAssociation": "4.16",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "JavaBo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "JavaNovel",
+			"Enabled": true
+		}
+	],
 	"TargetPlatforms": [
 		"IOS",
 		"AllDesktop",

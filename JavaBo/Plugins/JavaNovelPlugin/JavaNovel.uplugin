@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1",
+	"FriendlyName": "JavaNovelPlugin",
+	"Description": "Java Novel",
+	"Category": "Java",
+	"CreatedBy": "The Java Brigade",
+	"CreatedByURL": "https://arigato-java.download/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NovelAssetPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "NovelAssetImporter",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
